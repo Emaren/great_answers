@@ -7,7 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <a href="<%= root_path %>">Home</a>
+  <a href="<%= hello_path %>">Hello</a>
+  <%= link_to "Hello", hello_path %>
+  <hr>
 <%= yield %>
 
 </body>
